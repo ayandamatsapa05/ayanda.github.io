@@ -1,0 +1,297 @@
+/*General Styles*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
+
+}
+/*Header*/
+header{
+    background: burlywood;
+    color: white;
+    padding: 15px 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: whit;
+    font-size: 18px;
+}
+nav a:hover{
+    color: #4CAF50;
+}
+.hero{
+    background-color: url(images/messi2.jfif) no-repeat center/cover;
+    color: white;
+    padding: 100px 20px;
+
+}
+.hero .btn{
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.featured{
+    padding: 40px 20px;
+}
+.jersey-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.jersey{
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+.jesey img{
+    width: 150px;
+    height: auto;
+}
+
+main{
+    padding: 30px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+}
+h1, h2{
+    color: #1f1f1f;
+}
+a {
+    color:#1f1f1f;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    margin-left: 180px;
+    padding: 20px;
+}
+.side-image{
+    float: left;
+    width: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.side-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.jersey-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.jersey{
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    bottom: 0px 4px 8px rgba(0,0,0,0.2);
+}
+.jersey img{
+    width: 150px;
+    height: auto;
+}
+.promotion{
+    background: #333;
+    color: white;
+    padding: 50px 20px;
+}
+.promotion .btn{
+    background: rgb(205, 50, 50);
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/*footer*/
+footer{
+    background: burlywood;
+    color: burlywood;
+    padding: 15px;
+    font-size: 0.9em;
+    text-align: center;
+}
+/*Shop page*/
+.shop-header{
+    text-align: center;
+    padding: 20px;
+}
+#search-bar{
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+/*Jersey Grid*/
+.shop-grid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.jersey{
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    width: 250px;
+
+}
+.jersey img{
+    width: 100%;
+    height: auto;
+}
+.jersey .btn{
+    display: inline-block;
+    margin-top: 10px;
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.contact-assistance{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-contact{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-contact:hover{
+    background-color: darkblue;
+}
+/*Contact Page Styles*/
+.contact-page{
+    background: url("images/ball.jpg") no-repeat center/cover;
+    padding: 50px 0;
+
+}
+.contact-container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    margin: auto;
+}
+.contact-container h2{
+    color: #d9534f;
+    text-align: center;
+}
+.contact-container input,
+.contact-container textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+.contact-container button{
+    background-color: red;
+    background:linear-gradient(45deg, red, orange);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-container button:hover{
+    background-color: darkred;
+}
+.about-header{
+    background: url("images/ball2.jpg") no-repeat center/cover;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background: linear-gradient(to right, #0b3d91, #004aad);
+    color: white;
+    border-radius: 10px;
+}
+.about-image img{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+    margin-right: 30px;
+}
+.about-content{
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.6);
+}
+.about-content h2{
+    color: #ffd700;
+    font-size: 2rem;
+}
+.about-content p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.available-now-btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: ff4500;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+.available-now-btn:hover{
+    background: #ffd700;
+    color: black;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    font-size: 1rem;
+}
+
